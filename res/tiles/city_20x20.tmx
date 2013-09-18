@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="myTileSet" tilewidth="32" tileheight="32">
+  <image source="../images/myTileSet.png" width="640" height="1280"/>
+  <tile id="99">
+   <properties>
+    <property name="door" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Roofs" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzF0j9OAkEUx/EZsUFQEkGlUUqloNHCQ9gBtRF1CxOl8B8F4QBwALC3Ew7hKQQPoCYqVxC/m12Tx2ZmZQniSz7Zmd3Z375NnlLmqmiljnGCUzjacnDCuuH9W9SwhZyf94Q+BiHvnnP2AlXRQ5N1C3XsYs9/9o4PfGIosp+n7PsLI3dBvtbj2dPUaiBDZs+ivzQyWBN5C4hhMSRnX/RnypC1jg1kLVmHOMAR4sISEkiKs3k4WOFbZ1wLhrxLXOEam0IbHdyF/FeUekAXvcB90/z9R73gFW9z/m4ssJ9knmxlmp3f5slW7uwUUUJZebPj3lvW3jyltHme0shEbdxQ/P+ja5v1jr83nbtX3vw0/L1tnn7ypBm0+af1DedEMwk=
+  </data>
+ </layer>
+ <layer name="LastDecorators" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/+EoD86htJgxcA+LrQHwDiF9RwTyQGa+B+A0Qv6WCef+A+D+IwQhEjJSbJwQ0QxiIRYBYlArmjQLqAj4C8hx0cQVlYP9AO2AUUA0AABSHDSQ=
+  </data>
+ </layer>
+ <layer name="Background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPOiwGOPAuwEfBgD5WwGn
+  </data>
+ </layer>
+ <layer name="Background2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzVUlsKhDAMbD/sERbW+19n3b2AK+ieQf20sgbCmKT1AWJgSMm0w9CJc+v6CjOa1wpnVUrP6lfrFV7mgv/zrwUNO/M55+Z5FfEGfCJKn+cfexvRAX7M31l6bqMO9T5iAIzG/6JvzgclC8f+T6pU/lKFTL2n4WmPP23fNH/a/pGexEu7ie/u0KXdsfaJ3tC9uXO93OJ6mP9RPfT/8Mf0MO+zc5gAqXDCvg==
+  </data>
+ </layer>
+ <layer name="Builds" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJyt1MsuQ0Ecx/EZ6dKt6Cu4bGw9hAdwS8SGEEKCjVsICTZattggtmWD2AleAInLAyBxeQAk+E7OnPifcaactL/kk+k57fzaTP855VqpClSiCtUoJr2YQAc9M6wD4r0p/SPMNW5wi7uYPtO1Zft2VdBpMqmjfdO28wnPeMFrTN8KDnCIY6zZ+1n254RV2/eJL/OCa13k2ZjU0FGLOmRK0FdPRwMa0eTpK0PK8qUlwXemVOG+brSiJ2GXr3MUYxj/R18bZ9Cug3npRFfMmSxiCcu4wCWu8CCE8c2fzDo2sIl7u//R6Q7jmz+ZPPawjze848PpTpJTnOHcuS+745LW0dlJi7MsNEu+ZFT0fzZ9f/33vsTNjY/Yc+KSnebZ1Ycc+lXw7ArvZcW9MM36NxkzO9vYsauZnUE+M6SD62HWEedMnd8XiZlDMzdHdjXzOMv+OR1cz7MulOCZkiTfmQRVUA==
+  </data>
+ </layer>
+ <layer name="Natural" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF+MA1IL4OxDeA+CYVzHsFxK+B+A0Qv6WCef+A+D+IwQhEjJSbJwQ0QxiIRYBYlArmqQHNUAdiDSDWpIJ5o2AUjILBAwCWywoB
+  </data>
+ </layer>
+ <layer name="Natural2" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi+4BoQXwfiG0B8kwrmvQLi10D8BojfUsG8f0D8H8RgBCJGys0TApohDMQiQCxKBfPUgGaoA7EGEGtSwbxRMApGwfACAD74CgE=
+  </data>
+ </layer>
+ <layer name="Decorators" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANYKOyeQFYxFjxyBECKVjEJPHIjYKRDUhJY/xEqCEljSkjsfkIqD1AgrkgoESi+uEAhIFYhIrmqQOxBgE16OkHX3qyBmIbKPsdDjXo6YfY9MTESKRCIgEAdwwGqQ==
+  </data>
+ </layer>
+ <objectgroup name="Impassable" width="20" height="20" visible="0">
+  <properties>
+   <property name="impassable" value="true"/>
+  </properties>
+  <object x="544" y="544" width="64" height="32"/>
+  <object x="0" y="0" width="160" height="128"/>
+  <object x="192" y="0" width="160" height="128"/>
+  <object x="0" y="288" width="160" height="96"/>
+  <object x="96" y="512" width="320" height="96"/>
+  <object x="288" y="256" width="288" height="128"/>
+  <object x="480" y="384" width="96" height="32"/>
+  <object x="416" y="128" width="160" height="128"/>
+  <object x="128" y="384" width="32" height="32"/>
+  <object x="288" y="384" width="96" height="32"/>
+  <object x="0" y="576" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="doors" width="20" height="20" visible="0">
+  <object x="288" y="96" width="32" height="32"/>
+  <object x="64" y="96" width="32" height="32"/>
+  <object x="64" y="352" width="32" height="32"/>
+  <object x="512" y="384" width="32" height="32"/>
+  <object x="192" y="576" width="32" height="32"/>
+  <object x="320" y="576" width="32" height="32"/>
+ </objectgroup>
+</map>
